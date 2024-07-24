@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio | R.S Designs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+</head>
+<body>
+
+    <nav id="nav-menu">
+      <div class="nav-logo">
+        <img src="assets/R.S Design Logo in White.svg" alt="">
+      </div>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+        <li id="link1" class="links"><a href="index.html">Home</a></li>
+        <li id="link2" class="links"><a href="#">Features</a></li>
+        <li id="link3" class="links"><a href="#">Projects</a></li>
+        <li class="links"><a href="contact.html">Contact</a></li>
+        <div class="closing-btn" onclick="toggleMenu()">X</div>
+      </ul>
+      <button class="btn">Hire Me</button>
+    </nav>
+
+    <header class="container">
+      <div class="content">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h4>CREATE YOUR SITE LIKE A PRO</h4>
+        <h1>Hi, I'm <span>Rashaad Smith</span>, Junior Web Designer</h1>
+        <p>a passionate and creative web designer with over 2 years of experience in crafting visually stunning and user-friendly websites. 
+          My journey into the world of web design started from a love for both art and technology, 
+          leading me to develop a unique skill set that blends aesthetic appeal with functional design.</p>
+        <button class="btn">Get Started</button>
+      </div>
+      <div class="image">
+        <img src="assets/header.png" alt="">
+      </div>
+    </header>
+
+    <section class="container">
+      <h2 class="header">Why Work With Me?</h2>
+      <p>I am dedicated to staying up-to-date with the latest trends and technologies in web design.
+        My goal is to help businesses and individuals establish a strong online presence with websites that are not only visually appealing but also optimized for performance and search engines.
+        I take pride in delivering high-quality work and building long-term relationships with my clients.
+        When I'm not designing, you can find me exploring the latest web design trends, learning new coding techniques, or enjoying a good cup of coffee while sketching new ideas.
+        Let's create something amazing together!
+        Feel free to reach out to me at <a id="link-to-email" href="mailto:srashaad198@gmail.com">srashaad198@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/rashaad-smith/">LinkedIn</a>.</p>
+      <div class="features">
+        <div class="card">
+          <span class="icon"><i class="ri-rocket-line"></i></span>
+          <h4>My Mission</h4>
+          <div class="card-desc">
+            <div>
+              <p>To create websites that are not only beautiful but also intuitive and accessible.</p>
+              <p>I believe that a great website should provide an engaging user experience while effectively communicating the brand's message.</p>
+              <p>Whether it's a sleek corporate site or a vibrant online store, I strive to deliver designs that resonate with users and drive results for clients.</p>
+              <span class="more-text hidden-content">
+                <p>I also aim to empower brands by creating innovative, visually stunning, and user-friendly websites that captivate audiences and drive business growth.</p>
+                <p>I aim to blend creativity with functionality to deliver digital experiences that leave a lasting impression.</p>
+              </span>
+              <button class="read-more-btn">Read More</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <span class="icon"><i class="ri-lightbulb-flash-line"></i></span>
+          <h4>My Skills</h4>
+          <div class="card-desc">
+            <div>
+              <p><b>HTML & CSS:</b> The foundation of my web design expertise, ensuring every site is built with clean, efficient code.</p>
+              <p><b>Responsive Design:</b> Creating designs that look great and functions perfectly on all devices, from desktops to smartphones.</p>
+              <p><b>Web Builders:</b> Building responsive website with variety of programs such as WordPress, Shopify, Wix, Figma and Squarespace</p>
+              <span class="more-text hidden-content">
+                <p><b>Logo Designing:</b> Using tools like Adobe Illustrator to create custom graphics and visual elements.</p>
+                <p><b>Video Editing:</b> Using tools like Adobe Premiere Pro and Photoshop to Visually edit stunning videos and create professional productions for social sharing, TV and film.</p>
+              </span>
+              <button class="read-more-btn">Read More</button> 
+            </div>  
+          </div>
+        </div>
+
+        <div class="card">
+          <span class="icon"><i class="ri-donut-chart-line"></i></span>
+          <h4>My Process</h4>
+          <div class="card-desc">
+            <div>
+              <p><b>Discovery & Planning:</b> Understanding the client's needs, goals, and target audience to create a detailed project plan.</p>
+              <p><b>Design & Prototyping:</b> Developing wireframes and design mockups to visualize the structure and look of the website.</p>
+              <p><b>Development:</b> Bringing the design to life with clean, efficient code.</p>
+              <span class="more-text hidden-content">
+                <p><b>Testing & Launch:</b> Thoroughly testing the website across different devices and browsers to ensure a flawless user experience before going live.<br></p>
+                <p><b>Support & Maintenance:</b> Providing ongoing support and updates to keep the website running smoothly and effectively.</p>
+              </span>
+              <button class="read-more-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+      <h2 class="header">Projects</h2>
+      <p class="sub-header">
+        Check out my Projects down below .😇
+      </p>
+      <div class="projects">
+        <div class="wrapper">
+          <div class="content">
+            <img src="assets/Project-1.jpg">
+            <h2>USED PROJECTS</h2>
+            <div class="important" style="font-weight: bold;">(NOTE: THESE ARE PROJECTS THAT ARE CLONES)</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+
+        <div class="wrapper">
+          <div class="content">
+            <img src="assets/project-12.jpg">
+            <h2>RS TEMPLATES</h2>
+            <div class="important">Custom Templates designed by R.S Designs with responsive design.</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+
+        <div class="wrapper">
+          <div class="content">
+            <img src="assets/Project-3.jpg">
+            <h2>PORTFOLIOS</h2>
+            <div class="important">Portfolios to get your business started with variety of layouts and designs.</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+
+        <div class="wrapper">
+          <div class="content">
+            <img src="assets/Project-1.jpg">
+            <h2>BARBERSHOPS</h2>
+            <div class="important">Barbershop websites, one of my personal favourites and hopefully yours too.</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+
+        <div class="wrapper">
+          <div class="content">
+            <img src="assets/Project-2.jpg">
+            <h2>RESTAURANT</h2>
+            <div class="important">Looking for a business website like restaurant to start your business?</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+
+        <div class="wrapper">
+          <div class="content">
+            <img src="assets/Project-3.jpg">
+            <h2>E-COMMERCE</h2>
+            <div class="important">Starting a business selling goods and materials?</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+      </div>
+  </section>
+
+  <footer class="container">
+    <span class="blur"></span>
+    <span class="blur"></span>
+    <div class="column">
+      <div class="logo">
+        <img src="assets/R.S Design Logo in White.svg">
+      </div>
+      <p>Follow Me On My Socials For More:</p>
+      <div class="socials">
+        <a href="#"><i class="ri-youtube-line"></i></a>
+        <a href="https://github.com/RashaadSmith23/r.sdesign-portfolio" target="_blank"><i class="ri-github-line"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+      </div>
+    </div>
+    <div class="column">
+      <h4>Services</h4>
+      <a href="Web Design.html">Web Design</a>
+      <a href="#">Video Editor</a>
+      <a href="#">Image Minipulation</a>
+    </div>
+    <div class="column">
+      <h4>About</h4>
+      <a href="https://github.com/RashaadSmith23" target="_blank">GitHub Channel</a>
+      <a href="#">Channels</a>
+      <a href="#">Sponsors</a>
+    </div>
+    <div class="column">
+      <h4>More</h4>
+      <a href="#">Privacy Policy</a>
+      <a href="terms&conditions.html">Terms & Conditions</a>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    Copright © 2024 COLD DESIGN. All Rights Reserved.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
